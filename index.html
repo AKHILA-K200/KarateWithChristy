@@ -12,43 +12,87 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- SETUP: replace 919999999999 with your WhatsApp number (country code + number, no + or spaces)
-     and "+91 99999 99999" with the number shown on the page.
-     PHOTOS (optional): add images/instructor.png, images/thammanam.jpg, images/kalamassery.jpg, images/muttom.jpg -->
+
 
 <header class="top">
   <a class="brand" href="#home"><img src="logo.png" alt="" width="46" height="46"><span><b>KYUDOKAN</b><small>FEDERATION OF INDIA</small></span></a>
   <span class="inst">Instructor<b>Christina Daji</b></span>
   <nav aria-label="Main">
-    <a href="#home">Home</a><a href="#about">About</a><a href="#online">Online Program</a><a href="#offline">Offline Classes</a><a href="#syllabus">Syllabus</a><a href="#pricing">Pricing</a><a href="#contact">Contact</a>
+    <a href="#home">Home</a><a href="#about">About</a><a class="free-link" href="#online">Free Online</a><a href="#offline">Offline Classes</a><a href="#syllabus">Syllabus</a><a href="#pricing">Pricing</a><a href="#contact">Contact</a>
   </nav>
   <a class="pill" href="https://forms.gle/MpCEH9c5YpFWbnwr5" target="_blank" rel="noopener">Join Now</a>
 </header>
 
 <main>
-<section id="home" class="hero">
+<section id="home" class="hero" aria-roledescription="carousel" aria-label="Highlights">
   <div class="kanji" aria-hidden="true">究道館</div>
-  <div class="hero-text">
-    <p class="tags">DISCIPLINE &nbsp;|&nbsp; FITNESS &nbsp;|&nbsp; CONFIDENCE</p>
-    <h1>Learn Karate<br>with <em>Christina Daji</em></h1>
-    <p class="sub">Okinawa Shorin Ryu Kyudokan Federation of India</p>
-    <p class="lede">Build a stronger body, a calmer mind and a more confident you with authentic karate training, online or offline.</p>
-    <div class="btn-row">
-      <a class="btn red" href="https://forms.gle/MpCEH9c5YpFWbnwr5" target="_blank" rel="noopener">Start learning free</a>
-      <a class="btn line" href="#offline">Explore classes</a>
-    </div>
-    <ul class="hero-points">
-      <li><b>Learn online</b>At your own pace</li>
-      <li><b>Offline classes</b>3 locations in Ernakulam</li>
-      <li><b>Authentic training</b>Kyudokan Federation of India</li>
-    </ul>
-  </div>
-  <div class="hero-photo" role="img" aria-label="Instructor Christina Daji in karate stance">
-    <div class="photo-card"><img src="logo.png" alt="" width="110" height="110"><b>KYUDOKAN</b><small>FEDERATION OF INDIA</small></div>
-    <p class="values">Traditional values<br>Modern learning<br>Lifelong benefits</p>
+  <div class="slides">
+
+    <!-- SLIDE 1 -->
+    <article class="slide active" aria-roledescription="slide">
+      <div class="slide-text">
+        <p class="tags">DISCIPLINE &nbsp;|&nbsp; FITNESS &nbsp;|&nbsp; CONFIDENCE</p>
+        <h1>Learn Karate<br>with <em>Christina Daji</em></h1>
+        <p class="sub">Okinawa Shorin Ryu Kyudokan Federation of India</p>
+        <p class="lede">Build a stronger body, a calmer mind and a more confident you with authentic karate training, online or offline.</p>
+        <div class="btn-row">
+          <a class="btn red" href="https://forms.gle/MpCEH9c5YpFWbnwr5" target="_blank" rel="noopener">Start learning free</a>
+          <a class="btn line" href="#offline">Explore classes</a>
+        </div>
+        <ul class="hero-points">
+          <li><b>Learn online</b>At your own pace</li>
+          <li><b>Offline classes</b>3 locations in Ernakulam</li>
+          <li><b>Authentic training</b>Kyudokan Federation of India</li>
+        </ul>
+      </div>
+      <div class="slide-img"><img src="stance.jpeg" alt="Instructor Christina Daji in a low karate stance under bare trees" style="object-position:50% 55%"><span class="img-values">Traditional values<br>Modern learning<br>Lifelong benefits</span><span class="img-tag">Instructor Christina Daji</span></div>
+    </article>
+
+    <!-- SLIDE 2 -->
+    <article class="slide" aria-roledescription="slide">
+      <div class="slide-text">
+        <p class="tags">OFFLINE CLASSES &nbsp;|&nbsp; ERNAKULAM, KOCHI</p>
+        <h2 class="h1">Train in person <em>in Kochi</em></h2>
+        <p class="lede">Three locations across Ernakulam, with classes through the week. Find the one nearest you.</p>
+        <div class="btn-row">
+          <a class="btn red" href="#offline">Find a class</a>
+          <a class="btn line" href="https://wa.me/917994755549?text=Hello%2C%20I%20am%20interested%20in%20the%20OFFLINE%20Karate%20classes%20in%20Kochi.%20Please%20share%20the%20details." target="_blank" rel="noopener">Ask on WhatsApp</a>
+        </div>
+      </div>
+      <div class="slide-img"><img src="images/hands.jpg" alt="Christina Daji in a wide stance with hands crossed in front of her" style="object-position:50% 55%"><span class="img-tag">Instructor Christina Daji</span></div>
+    </article>
+
+    <!-- SLIDE 3 -->
+    <article class="slide" aria-roledescription="slide">
+      <div class="slide-text">
+        <p class="tags">DISCIPLINE &nbsp;|&nbsp; FITNESS &nbsp;|&nbsp; CONFIDENCE</p>
+        <h2 class="h1">Train with <em>Christina Daji</em></h2>
+        <p class="lede">A woman-led karate program for students of all ages and levels. Build a stronger body, a calmer mind and a more confident you.</p>
+        <div class="btn-row">
+          <a class="btn red" href="https://forms.gle/MpCEH9c5YpFWbnwr5" target="_blank" rel="noopener">Join now</a>
+          <a class="btn line" href="#gallery">See the gallery</a>
+        </div>
+      </div>
+      <div class="slide-img"><img src="images/competition.jpg" alt="Christina Daji competing in a karate tournament" style="object-position:50% 40%"><span class="img-tag">Instructor Christina Daji</span></div>
+    </article>
+
+    <!-- TO ADD AN EVENT (e.g. a self-defence class): copy one <article class="slide" aria-roledescription="slide">
+      <div class="slide-text">
+        <p class="tags">ONLINE PROGRAM &nbsp;|&nbsp; ANYWHERE IN THE WORLD</p>
+        <h2 class="h1">Learn online, <em>at your own pace</em></h2>
+        <p class="lede">Follow the step-by-step syllabus videos from home. The syllabus is free, and personalised guidance is optional.</p>
+        <div class="btn-row">
+          <a class="btn red" href="https://forms.gle/MpCEH9c5YpFWbnwr5" target="_blank" rel="noopener">Register now</a>
+          <a class="btn line" href="#online">How it works</a>
+        </div>
+      </div>
+      <div class="slide-img"><img src="images/competition.jpg" alt="Christina Daji performing in a karate tournament" style="object-position:50% 40%"><span class="img-tag">Instructor Christina Daji</span></div>
+    </article>
+      <article class="lvl blue"><h3>Level 2: Intermediate</h3><ul><li>Advanced techniques</li><li>Kata</li><li>Kumite basics</li><li>Fitness and conditioning</li><li>Self-defence basics</li></ul></article>
+      <article class="lvl brown"><h3>Level 3: Advanced</h3><ul><li>Advanced kata</li><li>Kumite (sparring)</li><li>Strength and conditioning</li><li>Tactical training</li><li>Grading preparation</li></ul></article>
+    </div>-->
   </div>
 </section>
-
 <section id="about" class="sec">
   <div class="wrap about">
     <div>
@@ -68,6 +112,7 @@
     <blockquote class="quote"><p>Karate is not just a sport, it's a way of life.</p><cite>Christina Daji</cite></blockquote>
   </div>
 </section>
+
 
 <section id="online" class="sec tint">
   <div class="wrap">
@@ -101,7 +146,6 @@
     </div>
   </div>
 </section>
-
 <section id="syllabus" class="sec">
   <div class="wrap">
     <h2>Karate syllabus</h2>
@@ -113,13 +157,12 @@
     </div>
   </div>
 </section>
-
 <section id="offline" class="sec rose">
   <div class="wrap">
     <h2>Offline classes: 3 locations in Ernakulam</h2>
     <p class="intro">Train in person with an instructor at the location nearest to you.</p>
     <div class="branches">
-      <article class="branch" style="--img:url(images/thammanam.jpg)">
+      <article class="branch" style="--img:url(thammanam.jfif)">
         <div class="bimg"></div>
         <div class="bbody">
           <h3>Thammanam</h3>
@@ -127,23 +170,31 @@
           <address>Karolil Ln, Anjumuri, Kuthappady, Thammanam, Ernakulam 682032</address>
           <div class="btn-row sm">
             <a class="btn wa" href="https://wa.me/917994755549?text=Hello%2C%20I%20am%20interested%20in%20the%20OFFLINE%20Karate%20class%20at%20Thammanam%20(Sat%20%26%20Sun%2C%205%E2%80%936%20pm).%20Please%20share%20the%20details." target="_blank" rel="noopener">Enquire on WhatsApp</a>
-            <a class="btn line-d" href="https://www.google.com/maps/search/?api=1&query=Karolil+Ln+Anjumuri+Kuthappady+Thammanam+Ernakulam+682032" target="_blank" rel="noopener">Map</a>
+            <a class="btn line-d" href="https://www.google.com/maps/place/Olympus+Arena/@9.980677,76.3116279,17z/data=!3m1!4b1!4m6!3m5!1s0x3b080db0e8c1ede7:0xe8ab3eaa6653391e!8m2!3d9.980677!4d76.3116279!16s%2Fg%2F11h4pgrrqz?entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Map</a>
           </div>
         </div>
       </article>
-      <article class="branch" style="--img:url(images/kalamassery.jpg)">
+      <article class="branch" style="--img:url(kalamassery.jfif)">
         <div class="bimg"></div>
         <div class="bbody">
           <h3>Kalamassery</h3>
           <p class="when">Tuesday and Thursday, <b>5:30 to 6:30 pm</b></p>
           <address>Rajagiri Rd, North Kalamassery, Kochi 683104</address>
           <div class="btn-row sm">
+            
             <a class="btn wa" href="https://wa.me/917994755549?text=Hello%2C%20I%20am%20interested%20in%20the%20OFFLINE%20Karate%20class%20at%20Kalamassery%20(Tue%20%26%20Thu%2C%205%3A30%E2%80%936%3A30%20pm).%20Please%20share%20the%20details." target="_blank" rel="noopener">Enquire on WhatsApp</a>
-            <a class="btn line-d" href="https://www.google.com/maps/search/?api=1&query=Rajagiri+Rd+North+Kalamassery+Kochi+683104" target="_blank" rel="noopener">Map</a>
+<a
+  class="btn line-d"
+  href="https://www.google.com/maps/place/Kyudokan+Karate+School+North+Kalamassery/@10.0564674,76.3205929,17z/data=!3m1!4b1!4m6!3m5!1s0x3b080d004007c6f7:0x533892e0b07a3030!8m2!3d10.0564674!4d76.3205929!16s%2Fg%2F11w3c_r6h5?entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D"
+  target="_blank" 
+  rel="noopener"
+>
+  Map
+</a>
           </div>
         </div>
       </article>
-      <article class="branch" style="--img:url(images/muttom.jpg)">
+      <!-- <article class="branch" style="--img:url(images/muttom.jpg)">
         <div class="bimg"></div>
         <div class="bbody">
           <h3>Muttom</h3>
@@ -154,7 +205,7 @@
             <a class="btn line-d" href="https://www.google.com/maps/search/?api=1&query=Muttom+Metro+Station+Kerala" target="_blank" rel="noopener">Map</a>
           </div>
         </div>
-      </article>
+      </article> -->
     </div>
   </div>
 </section>
@@ -182,18 +233,78 @@
   </div>
 </section>
 
-<section id="contact" class="sec">
+<!-- <section id="contact" class="sec">
   <div class="wrap contact">
     <div>
       <h2>Contact us</h2>
       <p class="intro">Call, or message on WhatsApp and we will reply with the next steps.</p>
-      <p class="phone"><a href="tel:+917994755549">+91 7994755549</a></p>
+      <p class="phone"><a href="tel:+917994755549">+91 79947 55549</a></p>
     </div>
     <div class="btn-col">
       <a class="btn dark-b" href="tel:+917994755549">Call now</a>
       <a class="btn wa" href="https://wa.me/917994755549?text=Hello%2C%20I%20am%20interested%20in%20the%20ONLINE%20Karate%20Learning%20Program.%20Please%20share%20the%20details." target="_blank" rel="noopener">WhatsApp: online class</a>
       <a class="btn wa" href="https://wa.me/917994755549?text=Hello%2C%20I%20am%20interested%20in%20the%20OFFLINE%20Karate%20classes%20in%20Kochi.%20Please%20share%20the%20details." target="_blank" rel="noopener">WhatsApp: offline class</a>
     </div>
+  </div>
+</section> -->
+<section id="contact" class="sec contact-sec">
+  <div class="wrap contact">
+
+    <div class="contact-copy">
+      <span class="contact-tag">START YOUR JOURNEY</span>
+
+      <h2>Ready to begin<br><em>your karate journey?</em></h2>
+
+      <p class="intro">
+        Have questions about online or offline training?
+        Call us or send a WhatsApp message and we'll guide you
+        through the next steps.
+      </p>
+
+      <a class="phone" href="tel:+917994755549">
+        <span class="phone-icon">☎</span>
+        +91 79947 55549
+      </a>
+    </div>
+
+    <div class="contact-actions">
+
+      <a class="contact-btn call" href="tel:+917994755549">
+        <span>
+          <strong>Call us</strong>
+          <small>Speak with us directly</small>
+        </span>
+        <b>→</b>
+      </a>
+
+      <a
+        class="contact-btn whatsapp"
+        href="https://wa.me/917994755549?text=Hello%2C%20I%20am%20interested%20in%20the%20ONLINE%20Karate%20Learning%20Program.%20Please%20share%20the%20details."
+        target="_blank"
+        rel="noopener"
+      >
+        <span>
+          <strong>Online Karate Classes</strong>
+          <small>Message us on WhatsApp</small>
+        </span>
+        <b>→</b>
+      </a>
+
+      <a
+        class="contact-btn whatsapp"
+        href="https://wa.me/917994755549?text=Hello%2C%20I%20am%20interested%20in%20the%20OFFLINE%20Karate%20classes%20in%20Kochi.%20Please%20share%20the%20details."
+        target="_blank"
+        rel="noopener"
+      >
+        <span>
+          <strong>Offline Karate Classes</strong>
+          <small>Classes in Kochi</small>
+        </span>
+        <b>→</b>
+      </a>
+
+    </div>
+
   </div>
 </section>
 </main>
@@ -203,5 +314,6 @@
   <nav aria-label="Footer"><a href="#home">Home</a><a href="#about">About</a><a href="#online">Online</a><a href="#offline">Offline</a><a href="#syllabus">Syllabus</a><a href="#contact">Contact</a></nav>
   <p>© 2026 Okinawa Shorin Ryu Kyudokan Federation of India. All rights reserved.</p>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
